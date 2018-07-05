@@ -15,6 +15,10 @@ int main(){
   printf("Die 2: %d\n",d2);
 
   printf("Total value: %d\n",d1 + d2);
+ // previous
+
+  if( 7 < ( d1 + d2) )printf("You won\n");
+  else printf("You lost\n");
 
 
 return 0;
